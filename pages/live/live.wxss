@@ -1,0 +1,49 @@
+/* pages/main/main.wxss */
+.main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: skyblue;
+}
+.top {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding: 22rpx 0 22rpx;
+}
+.box {
+  text-align: center;
+}
+.guide {
+  display: inline-block;
+  width: 30vw;
+  height: 30vw;
+  background-color: rgba(0, 0, 0, 0.55); 
+  text-align: center;
+  margin: 1.5px;
+  vertical-align: top;
+}
+.normal {
+  display: inline-block;
+  width: 30vw;
+  height: 30vw;
+  text-align: center;
+  margin: 1.5px;
+  vertical-align: top;
+}
+.bk {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.icon {
+  display: block;
+  width: 36px; 
+  height: 36px; 
+  margin:20px auto 0;
+}
+.label {
+  display: block;
+  margin-top: 10px;
+  color: #CFE4FF;
+  font-size: 14px;
+}
+

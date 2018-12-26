@@ -1,0 +1,69 @@
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <swiper-item>
+            <image src="/images/bjtu666.jpg" class='swiper-img' catchtap="navToOne"></image>
+    </swiper-item>
+    <swiper-item>
+            <image src="/images/bjtuspring.jpg" class='swiper-img' catchtap="navToTwo"></image>
+    </swiper-item>
+    <swiper-item>
+            <image src="/images/bjturail.jpg" class='swiper-img' catchtap="navToThree"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class="category">
+  <view class="category_item" wx:for="{{iconArray}}" wx:key = "iconArray">
+    <view class="category_item_wrap">
+      <view class="icon_wrap">
+        <image src="{{item.iconUrl}}" class="index_icon"></image>
+      </view>
+      <view class="category_item_text">
+        <text>{{item.iconText}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='list-body' catchtap="navToOne" >
+    <text class='list-title'>系统科学连续四次蝉联第一！</text>
+    <image src="/images/bjtu666.jpg" class='list-img'></image>
+    <text class='list-simple'>5个学科评估为A类（前10%），系统科学连续四次蝉联全国第一</text>
+    <view class='list-bottom'>
+        <image class='list-love' src='/images/like.png'></image>
+        <text class='list-num'>3999</text>
+        <image class='list-love' src='/images/eye.png'></image>
+        <text class='list-num'>6999</text>
+        <image class='list-love' src='/images/sharing.png'></image>
+        <text class='list-num'>2999</text>
+    </view>
+</view>
+
+<view class='list-body' catchtap="navToTwo">
+    <text class='list-title'>交大颜值再次爆表！</text>
+    <image src="/images/bjtuspring.jpg" class='list-img'></image>
+    <text class='list-simple'>上园村三号，迷人的风景</text>
+    <view class='list-bottom'>
+        <image class='list-love' src='/images/like.png'></image>
+        <text class='list-num'>2886</text>
+        <image class='list-love' src='/images/eye.png'></image>
+        <text class='list-num'>4682</text>
+        <image class='list-love' src='/images/sharing.png'></image>
+        <text class='list-num'>1976</text>
+    </view>
+</view>
+
+<view class='list-body' catchtap="navToThree">
+    <text class='list-title'>厉害了，交大科研团队</text>
+    <image src="/images/bjturail.jpg" class='list-img'></image>
+    <text class='list-simple'>这个交大团队青年代表走进央视，用心诠释中国梦</text>
+    <view class='list-bottom'>
+        <image class='list-love' src='/images/like.png'></image>
+        <text class='list-num'>5678</text>
+        <image class='list-love' src='/images/eye.png'></image>
+        <text class='list-num'>6438</text>
+        <image class='list-love' src='/images/sharing.png'></image>
+        <text class='list-num'>3284</text>
+    </view>
+</view>

@@ -1,0 +1,48 @@
+<view class='box'>
+  <image src='/images/bjtuspring.jpg' class='title-img'></image>
+  <text class='title-text'>颜值爆表的交大【校花】</text>
+  <view class='Two-img'>
+    <image src='/images/share.png' bindtap="ShareTheModal"></image>
+    <image wx:if="{{collected==1}}" bindtap="onColletionTap" src='/images/collect-s.png'></image>
+    <image wx:if="{{collected==0}}"  bindtap="onColletionTap" src='/images/collect.png'></image>
+  </view>
+  <text class='detail'>四月芳菲 万物生长
+
+  百花争艳再一次成为主旋律
+
+  京城到处涌动着羡煞人的春意
+
+  人山人海 万头攒动
+
+  上园村三号
+
+  也有迷人的春景
+
+  一起约上三五好友
+
+  邂逅一场姹紫嫣红的春日美景吧</text>
+  <image class='rank' src='/images/flower.jpg'></image>
+  <view class='bottom'>
+     <text class='bottom-text'>一年春景莫错过
+
+最是花开最好时
+
+约上三俩好友或是恋人共同前去
+
+漫步在交大中
+
+希望的四月，美丽的交大
+
+留下你我最美的身影</text>
+  </view>
+</view>
+
+<view class="share-modal" hidden="{{Hide}}">
+      <view class="share-item"><image src="/images/share-wechat.png" class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-qq.png" class='share-img'/></view>
+      <view class="share-item"><image src="/images/share-weibo.png" class='share-img'/></view>
+      <view class="share-item"><image src="/images/share-circle.png" class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-room.png"  class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-more.png" class='share-img'/></view>
+      <view class='share-text' bindtap='showHide'>取消</view>
+</view>

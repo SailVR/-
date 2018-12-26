@@ -1,0 +1,36 @@
+<view class='box'>
+  <image src='/images/bjturail.jpg' class='title-img'></image>
+  <text class='title-text'>优秀的交大团队</text>
+  <view class='Two-img'>
+    <image src='/images/share.png' bindtap="ShareTheModal"></image>
+    <image wx:if="{{collected==1}}" bindtap="onColletionTap" src='/images/collect-s.png'></image>
+    <image wx:if="{{collected==0}}"  bindtap="onColletionTap" src='/images/collect.png'></image>
+</view>
+<text class='detail'>在这最美好的时代
+
+广大青年人
+
+既是追梦者也是圆梦人
+
+每个时代坐标都赋予青年重要的历史使命
+
+每个青春和奋斗的日子都是青年的节日</text>
+  <image class='rank' src='/images/youxiu.jpg'></image>
+  <view class='bottom'>
+     <text class='bottom-text'>◎ 高亮教授负责的“高速铁路线路工程安全服役创新团队”，获批科技部“国家创新人才推进计划”重点领域创新团队，是我校第三个国家级创新团队；
+
+◎ 团队与交通运输学院共同申报的“高速铁路高效运营与安全保障学科创新引智基地”入选“高等学校学科创新引智计划”（简称111计划）；
+
+◎ 作为2011计划“轨道交通安全协同创新中心”的核心团队，目前建设进展顺利。</text>
+  </view>
+</view>
+
+<view class="share-modal" hidden="{{Hide}}">
+      <view class="share-item"><image src="/images/share-wechat.png" class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-qq.png" class='share-img'/></view>
+      <view class="share-item"><image src="/images/share-weibo.png" class='share-img'/></view>
+      <view class="share-item"><image src="/images/share-circle.png" class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-room.png"  class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-more.png" class='share-img'/></view>
+      <view class='share-text' bindtap='showHide'>取消</view>
+</view>

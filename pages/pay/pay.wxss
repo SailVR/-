@@ -1,0 +1,32 @@
+.top{
+  margin: 20rpx 0rpx 50rpx 20rpx
+}
+radio{
+  margin-left: 150rpx;
+}
+.payHim{
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 200rpx;
+}
+.PayHimInput{
+  height: 100rpx;
+  text-align: center
+}
+.pay{
+  width: 100%;
+  height: 300rpx;
+  margin-left: 20rpx;
+  box-sizing: border-box;
+  margin-bottom: 200rpx;
+  margin-top: 100rpx;
+}
+.pay-item{
+  width: 33%;
+  float: left;
+  border: 1px solid #ccc
+}
+.pay-item text{
+  line-height: 150rpx;
+}

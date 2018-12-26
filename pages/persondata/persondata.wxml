@@ -1,0 +1,67 @@
+<view class="container">
+
+  <view class="wx-cells">
+    <view class="wx-cell-inner flex-row">
+      <view class="wx-cell-left flex-row flex-rest-width">
+        <text class="wx-cell-left-text">头像</text>
+      </view>
+      <view class="wx-cell-right flex-row">
+         <image class="user-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+      </view>
+    </view>
+
+    <view class="wx-cell-inner flex-row no-border">
+      <view class="wx-cell-left flex-row flex-rest-width">
+        <text class="wx-cell-left-text">姓名</text>
+      </view>
+      <view class="wx-cell-right flex-row">
+        <text class="wx-cell-right-text">{{userInfo.nickName}}</text>
+        <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="wx-cells">
+    <view class="wx-cell-inner flex-row">
+      <view class="wx-cell-left flex-row flex-rest-width">
+        <text class="wx-cell-left-text">性别</text>
+      </view>
+      <view class="wx-cell-right flex-row">
+        <text class="wx-cell-right-text">{{userInfo.gender}}</text>
+        <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+      </view>
+    </view>
+
+    <view class="wx-cell-inner flex-row no-border">
+      <view class="wx-cell-left flex-row flex-rest-width">
+        <text class="wx-cell-left-text">籍贯</text>
+      </view>
+      <view class="wx-cell-right flex-row">
+        <text class="wx-cell-right-text">{{userInfo.city}}, {{userInfo.province}}</text>
+        <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+      </view>
+    </view>
+
+    <view class="wx-cell-inner flex-row no-border">
+      <view class="wx-cell-left flex-row flex-rest-width">
+        <text class="wx-cell-left-text">年级</text>
+      </view>
+      <view class="wx-cell-right flex-row">
+        <text class="wx-cell-right-text">16级</text>
+        <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+      </view>
+    </view>
+
+    <view class="wx-cell-inner flex-row no-border">
+      <view class="wx-cell-left flex-row flex-rest-width">
+        <text class="wx-cell-left-text">专业</text>
+      </view>
+      <view class="wx-cell-right flex-row">
+        <text class="wx-cell-right-text">计算机科学与技术</text>
+        <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+      </view>
+    </view>
+
+  </view>
+</view>

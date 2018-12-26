@@ -1,0 +1,24 @@
+<view class='box'>
+  <image src='/images/bjtu666.jpg' class='title-img'></image>
+  <text class='title-text'>厉害了，我的交大</text>
+  <view class='Two-img'>
+    <image src='/images/share.png' bindtap="ShareTheModal"></image>
+    <image wx:if="{{collected==1}}" bindtap="onColletionTap" src='/images/collect-s.png'></image>
+    <image wx:if="{{collected==0}}"  bindtap="onColletionTap" src='/images/collect.png'></image>
+  </view>
+  <text class='detail'>由教育部学位与研究生教育发展中心组织的全国第四轮学科评估结果今日公布，我校参评学科在此次评估中取得了可喜成绩，其中系统科学学科再次取得全国第一的好成绩，该学科自教育部组织全国一级学科整体水平评估以来，连续四次蝉联全国第一。同时交通运输工程、信息与通信工程、计算机科学与技术、工商管理等4个学科进入前10%，另有应用经济学、土木工程、统计学、马克思主义理论、机械工程、管理科学与工程、软件工程等7个学科进入前20%。</text>
+  <image class='rank' src='/images/rank.jpg'></image>
+  <view class='bottom'>
+     <text class='bottom-text'>注：第四轮学科评估首次采用“分档”方式公布评估结果，不公布得分、不公布名次，不强调单位间精细分数差异和名次前后。采用按百分位进行分档的方式。根据“学科整体水平得分”的位次百分位，将前70%的学科分为三类九档公布：前2%（或前2名）为A+，2%～5%为A（不含2%，下同），5%～10%为A-，10%～20%为B+，20%～30%为B，30%～40%为B-，40%～50%为C+，50%～60%为C，60%～70%为C-。</text>
+  </view>
+</view>
+
+<view class="share-modal" hidden="{{Hide}}">
+      <view class="share-item"><image src="/images/share-wechat.png" class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-qq.png" class='share-img'/></view>
+      <view class="share-item"><image src="/images/share-weibo.png" class='share-img'/></view>
+      <view class="share-item"><image src="/images/share-circle.png" class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-room.png"  class='share-img' /></view>
+      <view class="share-item"><image src="/images/share-more.png" class='share-img'/></view>
+      <view class='share-text' bindtap='showHide'>取消</view>
+</view>

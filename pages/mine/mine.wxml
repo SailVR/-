@@ -1,0 +1,53 @@
+<view class="container">
+  <view class="wx-cells">
+    <view class="wx-cell" bindtap="navToPage"> 
+      <image class="wx-cell-icon user-avatar" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user-info">
+        <text class="user-info-text">{{userInfo.nickName}}</text>
+        <text class="user-info-text user-info-uid">City: {{userInfo.city}}</text>
+      </view>
+      <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+  </view>
+</view>
+
+<!-- <view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon" src="/images/all.png"></image>
+      <text class="wx-cell-text">通用</text>
+      <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+    </view>
+</view> -->
+  
+  <view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon" src="/images/email.png"></image>
+      <text class="wx-cell-text" catchtap='navToEmail'>我的邮箱</text>
+      <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+    </view>
+  </view>
+
+  <view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon" src="/images/live.png"></image>
+      <text class="wx-cell-text" catchtap='navToLive'>交大直播</text>
+      <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+    </view>
+  </view>
+
+  <view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon" src="/images/pay.png" ></image>
+      <text class="wx-cell-text" catchtap='navToPay'>网络缴费</text>
+      <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+    </view>
+  </view>
+
+  <view class="wx-cells">
+    <view class="wx-cell">
+      <image class="wx-cell-icon" src="/images/feedback.png"></image>
+      <text class="wx-cell-text" catchtap='navToForm'>用户反馈</text>
+      <image class="wx-cell-arrow" src="/images/right-gray.png"></image>
+    </view>
+  </view>
+
+</view>

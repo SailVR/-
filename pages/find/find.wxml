@@ -1,0 +1,20 @@
+<view class=' wh-padding search-top'>
+  <view class='search-container'>
+    <icon type="search" size='14' />
+    <input placeholder='请输入你想要搜索的' bindinput='bindInput' bindconfirm='setSearchStorage' bindfocus="bindFocus" confirm-type="search" value='{{inputValue}}'></input>
+  </view>
+</view>
+<view class='result-container'>
+  <view class='search-history' wx:if="{{StorageFlag}}">
+    <view class='weui-flex' wx:for="{{sercherStorage}}" wx:key="index" data-id="{{index}}" catchtap='tapSercherStorage'>
+      <text data-id="{{index}}">{{item}}</text>
+      <span class='close' data-id="{{index}}" catchtap="deteleSercherStorage"></span>
+    </view>
+    <view wx:if='{{sercherStorage.length != 0}}' catchtap='clearSearchStorage'>清除搜索记录</view>
+  </view>
+  <view wx:else>
+  </view>
+</view>
+<view class='bg'>
+    <image src='/images/bizhi.jpg'></image>
+</view>

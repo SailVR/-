@@ -1,0 +1,14 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class='box1'>
+    <text>你对产品改善有哪些建议</text>
+    <textarea placeholder="你的建议"></textarea>
+  </view>
+  <view class='box2'>
+    <text>方便留下手机号，万一以后联系呢？</text>
+    <input name="phone" placeholder="手机号" />
+  </view>
+  <view class="btn-area">
+    <button formType="submit">提交</button>
+    <button formType="reset">重置</button>
+  </view>
+</form>

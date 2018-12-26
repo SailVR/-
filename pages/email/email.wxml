@@ -1,0 +1,59 @@
+<!--page/one/index.wxml-->
+<view class="page">
+    <view class="page-bottom">
+        <view class="page-content">
+            <view  class="content">
+                <navigator url="" >收邮箱</navigator>
+            </view>
+            <view  class="content">
+                <navigator url="">发件箱</navigator>
+            </view>
+            <view  class="content">
+                <navigator url="">草稿箱</navigator>
+            </view>
+            <view  class="content">
+                <navigator url="" >垃圾箱</navigator>
+            </view>
+            <view  class="content">
+                <navigator url="" >写邮件</navigator>
+            </view>
+        </view>
+    </view>
+    <view class="page-top {{open ? 'c-state1' : ''}}">
+        <image bindtap="tap_ch" src="/images/slide.png"></image>
+        <view class="text" style='color:skyblue;'>收件箱</view>
+        
+        <view class='mail-box'>
+            <view class='box-top'>
+                  <text class='box-text'>From 董浩</text>
+            </view>
+            <text>面试是改变个人命运的重要时机，而简历作为一张面试名片，其制作也已成为了一门学问....</text>
+        </view> 
+        <view class='mail-box'>
+            <view class='box-top'>
+                  <text class='box-text'>From 王思达</text>
+            </view>
+            <text>在对未知迷的时候，一场来自学长学姐的经验分享会也许如醍醐灌顶....</text>
+        </view> 
+        <view class='mail-box'>
+            <view class='box-top'>
+                  <text class='box-text'>From 习晨希 </text>
+            </view>
+            <text>两会嘉年华提案大赛来啦！！....</text>
+        </view> 
+        <view class='mail-box'>
+            <view class='box-top'>
+                  <text class='box-text'>From 《数学建模》课程团队</text>
+            </view>
+            <text>本课程在5月31日即将结业，剩下的时间已经不多了....</text>
+        </view> 
+        <view class='mail-box'>
+            <view class='box-top'>
+                  <text class='box-text'>From 赵曼莉</text>
+            </view>
+            <text>计算机学院“声声入芯”配音大赛来啦!!!....</text>
+        </view> 
+
+
+    </view>
+</view>

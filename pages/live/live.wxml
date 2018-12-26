@@ -1,0 +1,13 @@
+<view class="main"> 
+  <view class='top'>
+    <text>请选择点击以下列表，体验小程序功能</text>
+  </view>
+  <view class='box'>
+    <view wx:for="{{Infos}}" wx:key="*this" class='guide' >
+      <block>
+        <image class="icon" src="{{item.icon}}"  />
+        <view class="label">{{item.title}}</view>
+      </block>
+    </view>
+  </view>
+</view>

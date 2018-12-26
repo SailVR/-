@@ -1,0 +1,24 @@
+<view class='container'>
+
+<view class='top'>
+   <text class='top-text' >是否带他人充值？</text>
+   <radio bindtap="ShowHisPay"></radio>
+</view>
+
+<view hidden='{{Hide}}' class='payHim'>
+   <input placeholder='请输入充值学号' class='PayHimInput'></input>
+   <input placeholder='请输入充值姓名' class='PayHimInput'></input>
+</view>
+
+<view class='pay'>
+    <view class='pay-item'><text>5元</text></view>
+    <view class='pay-item'><text>10元</text></view>
+    <view class='pay-item'><text>20元</text></view>
+    <view class='pay-item'><text>30元</text></view>
+    <view class='pay-item'><text>50元</text></view>
+    <view class='pay-item'><text>100元</text></view>
+</view>
+
+<button formType="submit">充值</button>
+
+</view>

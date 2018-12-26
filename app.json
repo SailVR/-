@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/email/email",
+    "pages/mine/mine",
+    "pages/circle/circle",
+    "pages/persondata/persondata",
+    "pages/find/find",
+    "pages/form/form",
+    "pages/live/live",
+    "pages/pay/pay",
+    "pages/swiper-one/swiper-one",
+    "pages/swiper-two/swiper-two",
+    "pages/swiper-three/swiper-three"
+  ],
+  "tabBar": {
+    "selectedColor": "green",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-s.png"
+      },
+    {
+      "pagePath": "pages/circle/circle",
+      "text": "校园圈",
+      "iconPath": "images/circle.png",
+      "selectedIconPath": "images/circle-s.png"
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "images/find.png",
+      "selectedIconPath": "images/find-s.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/mine.png",
+      "selectedIconPath": "images/mine-s.png"
+    }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black"
+  }
+}

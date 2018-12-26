@@ -1,0 +1,59 @@
+<view class='list-body' catchtap="navToTwo">
+    <view>
+        <image src='/images/person3.png' class='list-head-img'></image>
+        <text class='list-head-text'>2018-5-13</text>
+    </view>
+    <text class='list-simple'>大清早来思源楼看升旗，没白来！</text>
+    <image src="/images/shengqi.jpg" class='list-img'></image>
+    <view class='list-bottom'>
+        <image class='list-love' src='/images/like.png'></image>
+        <text class='list-num'>45</text>
+        <image class='list-love' src='/images/comment.png'></image>
+    </view>
+</view>
+
+<view class='list-body' catchtap="navToTwo">
+    <view>
+        <image src='/images/person4.png' class='list-head-img'></image>
+        <text class='list-head-text'>2018-5-11</text>
+    </view>
+    <text class='list-simple'>致敬！为我们安全保驾护航的他们！！</text>
+    <image src="/images/xunluo.jpg" class='list-img'></image>
+    <view class='list-bottom'>
+        <image class='list-love' src='/images/like.png'></image>
+        <text class='list-num'>77</text>
+        <image class='list-love' src='/images/comment.png'></image>
+    </view>
+</view>
+
+<view class='list-body' catchtap="navToTwo">
+    <view>
+        <image src='/images/person1.png' class='list-head-img'></image>
+        <text class='list-head-text'>2018-5-10</text>
+    </view>
+    <text class='list-simple'>天佑会堂，welcome to Dancing City</text>
+    <image src="/images/tianyou.jpg" class='list-img'></image>
+    <view class='list-bottom'>
+        <image class='list-love' src='/images/like.png'></image>
+        <text class='list-num'>58</text>
+        <image class='list-love' src='/images/comment.png'></image>
+    </view>
+</view>
+
+<view class='list-body' catchtap="navToTwo">
+    <view>
+        <image src='/images/person2.png' class='list-head-img'></image>
+        <text class='list-head-text'>2018-5-9</text>
+    </view>
+    <text class='list-simple'>计算机学院羽毛球比赛真精彩</text>
+    <image src="/images/game.jpg" class='list-img'></image>
+    <view class='list-bottom'>
+        <image class='list-love' src='/images/like.png'></image>
+        <text class='list-num'>16</text>
+        <image class='list-love' src='/images/comment.png'></image>
+    </view>
+</view>
+
+
+
+
